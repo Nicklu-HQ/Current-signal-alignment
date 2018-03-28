@@ -8,10 +8,13 @@ Fig1, show the current signal data from one fast5 file. There are 84806 current 
 
 With the same nanopore, the same motor protein, the same DNA sequence, the MinION emit a little different current signal. Alignment these current signal lead us to explore the more details about the deletions, insertions and mismatch. 
 
+___________________________________________________________________________________________________________________________
 
 Fig2, show the current signal of three subreads (two on the start side, another on the end side) and alignment.
+![Example](https://github.com/Nicklu-HQ/Current-signal-alignment/blob/master/picture/target_signal.png)
+![Example](https://github.com/Nicklu-HQ/Current-signal-alignment/blob/master/picture/align_f1_f2_f3.png)
 
-
+___________________________________________________________________________________________________________________________
 The original data and tools (python) are loaded. 
 
 It seems that:
