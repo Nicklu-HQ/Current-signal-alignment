@@ -4,7 +4,7 @@ Here we show some current signal data from MinION with “CCS” model and give 
 ___________________________________________________________________________________________________________________________
 Fig1, show the current signal data from one fast5 file. There are 84806 current points and 15747nt (about 6:1). The insert target sequence about 100nt, so there are about 80 duplicate subreads. The adaptor sequence (TATATATATATAT……) signal is very clear.
 
-![Example]（https://github.com/Nicklu-HQ/Current-signal-alignment/blob/master/picture/Current_Value.png）
+![Example](https://github.com/Nicklu-HQ/Current-signal-alignment/blob/master/picture/Current_Value.png)
 
 With the same nanopore, the same motor protein, the same DNA sequence, the MinION emit a little different current signal. Alignment these current signal lead us to explore the more details about the deletions, insertions and mismatch. 
 
