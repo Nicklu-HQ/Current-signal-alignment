@@ -20,12 +20,13 @@ The original data and tools (python) are loaded.
 It seems that:
 1.	The subreads are almost similar from start to end on the same read, so the hardware MinION is stable.
 2.	The difference between the subreads signal are random, and most probably cause by the motor protein.
-3.	The tandem sequence (even theduplicate subread is very short) can be record well by the MinION.
+3.	The tandem sequence (even the duplicate subread is very short) can be record well by the MinION.
 4.	Chimeras is obviously not a big problem on the amplification 
 5.	An algorithm making full use of these signal will produce a very high accuracy final read just like CCS from Pacbio.
 
 
 
 Unfortunately, we haven’t the reference sequence about the demo data, because it’s an unexpected product from PCR.  But it has a short repeat sequence (easy to calculator) and many duplicate subreads.
+
 We load some other fast5 files with a reference sequence, if you have an interest in the algorithm, you’re welcome to try these, and we are pleasure to know you meet the target of 100% accuracy.
 
